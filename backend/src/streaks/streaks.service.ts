@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import streaks from './data';
+import streaks from './seed_data';
 import { Streak } from './interfaces';
 
 @Injectable()
